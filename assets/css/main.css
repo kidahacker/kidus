@@ -157,15 +157,20 @@ h6 {
   border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
+.header .profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header .profile-img img {
-  display: block;
-  margin: 15px auto;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
+
 
 
 

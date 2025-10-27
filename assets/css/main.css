@@ -170,6 +170,11 @@ h6 {
   object-fit: cover;
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
+.header .profile-img img:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
 
 
 

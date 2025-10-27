@@ -159,9 +159,13 @@ h6 {
 
 .header .profile-img img {
   margin: 15px auto;
-  width: 50%;
+  width: 150px; /* fixed width */
+  height: 150px; /* fixed height */
+  object-fit: cover; /* keeps image centered and cropped */
+  border-radius: 50%; /* makes it a circle */
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
+
 
 .header .logo {
   line-height: 1;
